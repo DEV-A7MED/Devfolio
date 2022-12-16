@@ -14,7 +14,7 @@ window.onscroll = function () {
 
 //counter 
 let nums = document.querySelectorAll(".count");
-let sectionOffset = $('#about').offset().top;
+let sectionOffset = $('.counter').offset().top;
 let started = false; 
 let headingOffset=$('.home-caption ').offset().top;
 let aboutOffset=$('#about ').offset().top;
